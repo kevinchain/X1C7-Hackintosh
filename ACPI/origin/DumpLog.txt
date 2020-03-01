@@ -1,0 +1,117 @@
+23:648  13:359  Found UEFI Acpi 2.0 RSDP at 79C0E014
+23:648  0:000  Saving ACPI tables from RSDP 79C0E014 to EFI\CLOVER\ACPI\origin ...
+23:648  0:000   79C0E014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+23:714  0:066    (Xsdt: 79C0C188, Rsdt: 79C0C0C4)
+23:714  0:000    79C0C188: 'XSDT', 'TP-N2H', Rev: 1, Len: 260 -> XSDT.aml
+23:783  0:069    79C0C0C4: 'RSDT', 'TP-N2H', Rev: 1, Len: 148 -> RSDT.aml
+23:937  0:153    Tables in Xsdt: 28
+23:937  0:000    0. 77B65000: 'FACP', 'TP-N2H', Rev: 6, Len: 276 -> FACP.aml
+24:062  0:124        (Dsdt: 77B38000, Facs: 79A10000, XDsdt: 77B38000, XFacs: 0)
+24:062  0:000        77B38000: 'DSDT', 'CFL', Rev: 2, Len: 166583 -> DSDT.aml
+24:221  0:159        79A10000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+24:318  0:096    1. 77BB8000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6950 -> SSDT-0-CpuSsdt.aml (Found hidden SSDT 9 pcs)
+24:403  0:085        * 799C0098: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1343  53 53 44 54 3F 05 00 00 02 1C 50 6D 52 65 66 00 Internal length = 1343 -> SSDT-x0_0-Cpu0Ist.aml
+24:526  0:123        * 799B1018: 'SSDT', 'ApIst', Rev: 2, Len: 1532  53 53 44 54 FC 05 00 00 02 23 50 6D 52 65 66 00 Internal length = 1532 -> SSDT-x0_1-ApIst.aml
+24:652  0:125        * 799B1698: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1024  53 53 44 54 00 04 00 00 02 D9 50 6D 52 65 66 00 Internal length = 1024 -> SSDT-x0_2-Cpu0Cst.aml
+24:774  0:121        * 799B2A98: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 E9 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x0_3-ApCst.aml
+24:888  0:113        * 799C0898: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 329  53 53 44 54 49 01 00 00 02 51 50 6D 52 65 66 00 Internal length = 329 -> SSDT-x0_4-Cpu0Hwp.aml
+24:988  0:100        * 799C0B18: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 E3 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x0_5-ApHwp.aml
+25:084  0:095        * 799B2018: 'SSDT', 'HwpLvt', Rev: 2, Len: 1828  53 53 44 54 24 07 00 00 02 CA 50 6D 52 65 66 00 Internal length = 1828 -> SSDT-x0_6-HwpLvt.aml
+25:283  0:199        * 799C0718: 'SSDT', 'Cpu0Psd', Rev: 2, Len: 244  53 53 44 54 F4 00 00 00 02 37 50 6D 52 65 66 00 Internal length = 244 -> SSDT-x0_7-Cpu0Psd.aml
+25:370  0:087        * 799B0018: 'SSDT', 'ApPsd', Rev: 2, Len: 2736  53 53 44 54 B0 0A 00 00 02 AB 50 6D 52 65 66 00 Internal length = 2736 -> SSDT-x0_8-ApPsd.aml
+25:457  0:087  
+25:457  0:000    2. 77BB7000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389 -> SSDT-1-CtdpB.aml
+25:632  0:175    3. 77B7F000: 'SSDT', 'DptfTabl', Rev: 2, Len: 16083 -> SSDT-2-DptfTabl.aml
+25:719  0:086    4. 77B68000: 'SSDT', 'SaSsdt', Rev: 2, Len: 13066 -> SSDT-3-SaSsdt.aml
+25:848  0:129    5. 79A2D000: 'UEFI', 'TP-N2H', Rev: 1, Len: 66 -> UEFI.aml
+25:946  0:097    6. 77B66000: 'SSDT', 'PerfTune', Rev: 2, Len: 1328 -> SSDT-4-PerfTune.aml
+26:045  0:099    7. 77B64000: 'HPET', 'TP-N2H', Rev: 1, Len: 56 -> HPET.aml
+26:143  0:097    8. 77B63000: 'APIC', 'TP-N2H', Rev: 3, Len: 300 -> APIC.aml
+26:241  0:098    9. 77B62000: 'MCFG', 'TP-N2H', Rev: 1, Len: 60 -> MCFG.aml
+26:386  0:144    10. 77B61000: 'ECDT', 'TP-N2H', Rev: 1, Len: 83 -> ECDT.aml
+26:483  0:097    11. 77B36000: 'SSDT', 'WHL_Tbt_', Rev: 2, Len: 7851 -> SSDT-5-WHL_Tbt_.aml
+26:582  0:098    12. 77B35000: 'SSDT', 'PID1Ssdt', Rev: 2, Len: 36 -> SSDT-6-PID1Ssdt.aml
+26:679  0:097    13. 77B33000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5312 -> SSDT-7-ProjSsdt.aml
+26:818  0:139    14. 77B32000: 'BOOT', 'TP-N2H', Rev: 1, Len: 40 -> BOOT.aml
+26:909  0:090    15. 77B30000: 'SLIC', 'TP-N2H', Rev: 1, Len: 374 -> SLIC.aml
+27:007  0:098    16. 77B2E000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 3830 -> SSDT-8-UsbCTabl.aml
+27:147  0:140    17. 77B2D000: 'LPIT', 'TP-N2H', Rev: 1, Len: 148 -> LPIT.aml
+27:252  0:104    18. 77B2C000: 'WSMT', 'TP-N2H', Rev: 1, Len: 40 -> WSMT.aml
+27:369  0:117    19. 77B2A000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 6531 -> SSDT-9-TbtTypeC.aml
+27:467  0:098    20. 77B29000: 'DBGP', 'TP-N2H', Rev: 1, Len: 52 -> DBGP.aml
+27:577  0:109    21. 77B28000: 'DBG2', 'TP-N2H', Rev: 0, Len: 84 -> DBG2.aml
+27:675  0:098    22. 77B27000: 'MSDM', 'TP-N2H', Rev: 3, Len: 85 -> MSDM.aml
+27:777  0:102    23. 7794A000: 'BATB', 'TP-N2H', Rev: 2, Len: 74 -> BATB.aml
+27:889  0:111    24. 76142000: 'NHLT', 'TP-N2H', Rev: 0, Len: 6218 -> NHLT.aml
+28:002  0:113    25. 76141000: 'FPDT', 'TP-N2H', Rev: 1, Len: 68 -> FPDT.aml
+28:099  0:097    26. 76140000: 'BGRT', 'TP-N2H', Rev: 1, Len: 56 -> BGRT.aml
+28:189  0:089    27. 79A0A000: 'UEFI', 'TP-N2H', Rev: 1, Len: 318 -> UEFI.aml
+28:346  0:156    Tables in Rsdt: 28
+28:346  0:000    0. 77B65000: 'FACP', 'TP-N2H', Rev: 6, Len: 276
+28:346  0:000        (Dsdt: 77B38000, Facs: 79A10000, XDsdt: 77B38000, XFacs: 0)
+28:346  0:000        77B38000: 'DSDT', 'CFL', Rev: 2, Len: 166583
+28:350  0:003        79A10000: 'FACS', Ver: 2, Len: 64
+28:350  0:000    1. 77BB8000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6950
+28:350  0:000    2. 77BB7000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+28:350  0:000    3. 77B7F000: 'SSDT', 'DptfTabl', Rev: 2, Len: 16083
+28:350  0:000    4. 77B68000: 'SSDT', 'SaSsdt', Rev: 2, Len: 13066
+28:350  0:000    5. 79A2D000: 'UEFI', 'TP-N2H', Rev: 1, Len: 66
+28:350  0:000    6. 77B66000: 'SSDT', 'PerfTune', Rev: 2, Len: 1328
+28:350  0:000    7. 77B64000: 'HPET', 'TP-N2H', Rev: 1, Len: 56
+28:350  0:000    8. 77B63000: 'APIC', 'TP-N2H', Rev: 3, Len: 300
+28:350  0:000    9. 77B62000: 'MCFG', 'TP-N2H', Rev: 1, Len: 60
+28:350  0:000    10. 77B61000: 'ECDT', 'TP-N2H', Rev: 1, Len: 83
+28:350  0:000    11. 77B36000: 'SSDT', 'WHL_Tbt_', Rev: 2, Len: 7851
+28:350  0:000    12. 77B35000: 'SSDT', 'PID1Ssdt', Rev: 2, Len: 36
+28:350  0:000    13. 77B33000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5312
+28:350  0:000    14. 77B32000: 'BOOT', 'TP-N2H', Rev: 1, Len: 40
+28:350  0:000    15. 77B30000: 'SLIC', 'TP-N2H', Rev: 1, Len: 374
+28:350  0:000    16. 77B2E000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 3830
+28:350  0:000    17. 77B2D000: 'LPIT', 'TP-N2H', Rev: 1, Len: 148
+28:350  0:000    18. 77B2C000: 'WSMT', 'TP-N2H', Rev: 1, Len: 40
+28:350  0:000    19. 77B2A000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 6531
+28:350  0:000    20. 77B29000: 'DBGP', 'TP-N2H', Rev: 1, Len: 52
+28:350  0:000    21. 77B28000: 'DBG2', 'TP-N2H', Rev: 0, Len: 84
+28:350  0:000    22. 77B27000: 'MSDM', 'TP-N2H', Rev: 3, Len: 85
+28:350  0:000    23. 7794A000: 'BATB', 'TP-N2H', Rev: 2, Len: 74
+28:350  0:000    24. 76142000: 'NHLT', 'TP-N2H', Rev: 0, Len: 6218
+28:350  0:000    25. 76141000: 'FPDT', 'TP-N2H', Rev: 1, Len: 68
+28:350  0:000    26. 76140000: 'BGRT', 'TP-N2H', Rev: 1, Len: 56
+28:350  0:000    27. 79A0A000: 'UEFI', 'TP-N2H', Rev: 1, Len: 318
+28:350  0:000  Found UEFI Acpi 1.0 RSDP at 79C0E000
+28:350  0:000  Printing ACPI tables from RSDP 79C0E000 ...
+28:350  0:000   79C0E000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+28:350  0:000    (Rsdt: 79C0C000)
+28:350  0:000    79C0C000: 'RSDT', 'TP-N2H', Rev: 1, Len: 148
+28:350  0:000    Tables in Rsdt: 28
+28:350  0:000    0. 77B65000: 'FACP', 'TP-N2H', Rev: 6, Len: 276
+28:350  0:000        (Dsdt: 77B38000, Facs: 79A10000, XDsdt: 77B38000, XFacs: 0)
+28:350  0:000        77B38000: 'DSDT', 'CFL', Rev: 2, Len: 166583
+28:354  0:003        79A10000: 'FACS', Ver: 2, Len: 64
+28:354  0:000    1. 77BB8000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6950
+28:354  0:000    2. 77BB7000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+28:354  0:000    3. 77B7F000: 'SSDT', 'DptfTabl', Rev: 2, Len: 16083
+28:354  0:000    4. 77B68000: 'SSDT', 'SaSsdt', Rev: 2, Len: 13066
+28:354  0:000    5. 79A2D000: 'UEFI', 'TP-N2H', Rev: 1, Len: 66
+28:354  0:000    6. 77B66000: 'SSDT', 'PerfTune', Rev: 2, Len: 1328
+28:354  0:000    7. 77B64000: 'HPET', 'TP-N2H', Rev: 1, Len: 56
+28:354  0:000    8. 77B63000: 'APIC', 'TP-N2H', Rev: 3, Len: 300
+28:354  0:000    9. 77B62000: 'MCFG', 'TP-N2H', Rev: 1, Len: 60
+28:354  0:000    10. 77B61000: 'ECDT', 'TP-N2H', Rev: 1, Len: 83
+28:354  0:000    11. 77B36000: 'SSDT', 'WHL_Tbt_', Rev: 2, Len: 7851
+28:354  0:000    12. 77B35000: 'SSDT', 'PID1Ssdt', Rev: 2, Len: 36
+28:354  0:000    13. 77B33000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5312
+28:354  0:000    14. 77B32000: 'BOOT', 'TP-N2H', Rev: 1, Len: 40
+28:354  0:000    15. 77B30000: 'SLIC', 'TP-N2H', Rev: 1, Len: 374
+28:354  0:000    16. 77B2E000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 3830
+28:354  0:000    17. 77B2D000: 'LPIT', 'TP-N2H', Rev: 1, Len: 148
+28:354  0:000    18. 77B2C000: 'WSMT', 'TP-N2H', Rev: 1, Len: 40
+28:354  0:000    19. 77B2A000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 6531
+28:354  0:000    20. 77B29000: 'DBGP', 'TP-N2H', Rev: 1, Len: 52
+28:354  0:000    21. 77B28000: 'DBG2', 'TP-N2H', Rev: 0, Len: 84
+28:354  0:000    22. 77B27000: 'MSDM', 'TP-N2H', Rev: 3, Len: 85
+28:354  0:000    23. 7794A000: 'BATB', 'TP-N2H', Rev: 2, Len: 74
+28:354  0:000    24. 76142000: 'NHLT', 'TP-N2H', Rev: 0, Len: 6218
+28:354  0:000    25. 76141000: 'FPDT', 'TP-N2H', Rev: 1, Len: 68
+28:354  0:000    26. 76140000: 'BGRT', 'TP-N2H', Rev: 1, Len: 56
+28:354  0:000    27. 79A0A000: 'UEFI', 'TP-N2H', Rev: 1, Len: 318
